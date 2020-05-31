@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4515405395845558274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4515405395845558276}
+  - component: {fileID: 4515405395845558275}
+  - component: {fileID: 4515405395845558277}
+  - component: {fileID: 4515405395845558278}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4515405395845558276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515405395845558274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4515405395845558275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515405395845558274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c9ed8fb3cfa0c488aad6b4e866512b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+--- !u!114 &4515405395845558277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515405395845558274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59940de03a9a25c4c8b77d5349bad53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleportSpell: {fileID: 0}
+  freezeSpell: {fileID: 4003649979527329921, guid: 071061d70a8ecd24d9ae8bbd984b23f8,
+    type: 3}
+  currentSpell: {fileID: 0}
+  hand: {fileID: 0}
+  spellIndicator: {fileID: 8488913332694921813, guid: e5f8b39daa0c03c40b6daaccc8c8c698,
+    type: 3}
+  freezeMat: {fileID: 2100000, guid: 5bea1f34b4dd4434290276fd3bbde2e5, type: 2}
+  telMat: {fileID: 2100000, guid: 187cfa55716d2d842af433de1cfb824f, type: 2}
+  mana: 100
+  manaCost: 0
+  maxMana: 0
+  percentMana: 0
+--- !u!114 &4515405395845558278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4515405395845558274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51717030530afb04aa23aa4bf0652dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10000
+  mana: 0
+  manaMaterial: {fileID: 2100000, guid: c2b872cf2b1cfd94aac6561d4c34f944, type: 2}
+  manaInd: {fileID: 0}
